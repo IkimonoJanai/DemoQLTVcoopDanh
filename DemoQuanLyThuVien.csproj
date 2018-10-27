@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A72ACB73-067B-4133-BC0E-0C581AF03346}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DemoQuanLyThuVien</RootNamespace>
+    <AssemblyName>DemoQuanLyThuVien</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\BookDAO.cs" />
+    <Compile Include="DAO\CategoryDAO.cs" />
+    <Compile Include="DrawHinhThoi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DTO\Account.cs" />
+    <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DTO\Book.cs" />
+    <Compile Include="DTO\Category.cs" />
+    <Compile Include="fBookList\fBookList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBookList\fBookList.Designer.cs">
+      <DependentUpon>fBookList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOrigin\fHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOrigin\fHomePage.Designer.cs">
+      <DependentUpon>fHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOrigin\FormAdminInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOrigin\FormAdminInfo.Designer.cs">
+      <DependentUpon>FormAdminInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRentBook\fRentBookBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRentBook\fRentBookBill.Designer.cs">
+      <DependentUpon>fRentBookBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOrigin\FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOrigin\FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRentBook\fRentBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRentBook\fRentBook.Designer.cs">
+      <DependentUpon>fRentBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRentBook\fRentBookLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRentBook\fRentBookLogin.Designer.cs">
+      <DependentUpon>fRentBookLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRentBook\fRentBookSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRentBook\fRentBookSignUp.Designer.cs">
+      <DependentUpon>fRentBookSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRentList\fRentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRentList\fRentList.Designer.cs">
+      <DependentUpon>fRentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fUserList\fUserList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fUserList\fUserList.Designer.cs">
+      <DependentUpon>fUserList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOrigin\FormHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOrigin\FormHome.Designer.cs">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOrigin\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOrigin\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fBookList\fBookList.resx">
+      <DependentUpon>fBookList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOrigin\fHomePage.resx">
+      <DependentUpon>fHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOrigin\FormAdminInfo.resx">
+      <DependentUpon>FormAdminInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRentBook\fRentBookBill.resx">
+      <DependentUpon>fRentBookBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOrigin\FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRentBook\fRentBook.resx">
+      <DependentUpon>fRentBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRentBook\fRentBookLogin.resx">
+      <DependentUpon>fRentBookLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRentBook\fRentBookSignUp.resx">
+      <DependentUpon>fRentBookSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRentList\fRentList.resx">
+      <DependentUpon>fRentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fUserList\fUserList.resx">
+      <DependentUpon>fUserList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOrigin\FormHome.resx">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOrigin\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdasdasd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1 - Copy %282%29 - Copy %283%29\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my_studio_edit_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_addclip_editor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\37740358_265002680945844_5831663752210022400_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42784809_1700631966731480_2749685054136385536_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41735555_2287812011494235_1807251920952229888_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41188570_281680922652078_5144838339152576512_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41166776_281680885985415_7738645376416088064_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saintquartz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btAdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btPicMssv.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
