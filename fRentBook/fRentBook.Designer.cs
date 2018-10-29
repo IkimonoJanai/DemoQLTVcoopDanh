@@ -30,7 +30,7 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.dtgvBook = new System.Windows.Forms.DataGridView();
+            this.dtgvRentBook = new System.Windows.Forms.DataGridView();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -39,42 +39,51 @@
             this.nameNXB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.btDmsVH = new System.Windows.Forms.Button();
+            this.btDmsManga = new System.Windows.Forms.Button();
+            this.btDmsCNTT = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btDMSLN = new System.Windows.Forms.Button();
+            this.btDMSAll = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dtgvPickRentBook = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.lbfebMSSV = new System.Windows.Forms.Label();
+            this.lbfrbName = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.txtMssv = new System.Windows.Forms.TextBox();
-            this.txtUserName = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btConfirmRent = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btfRBDeselect = new System.Windows.Forms.Button();
+            this.btThanThanh = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnReturnfRentBook = new System.Windows.Forms.ToolStripMenuItem();
             this.discountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nhậpMãToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvBook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvRentBook)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvPickRentBook)).BeginInit();
             this.panel4.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.dtgvBook);
+            this.panel1.Controls.Add(this.dtgvRentBook);
             this.panel1.Location = new System.Drawing.Point(183, 196);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(542, 199);
+            this.panel1.Size = new System.Drawing.Size(543, 203);
             this.panel1.TabIndex = 0;
             // 
             // label3
@@ -83,15 +92,15 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(542, 26);
+            this.label3.Size = new System.Drawing.Size(543, 26);
             this.label3.TabIndex = 0;
             this.label3.Text = "Danh mục sách";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // dtgvBook
+            // dtgvRentBook
             // 
-            this.dtgvBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvBook.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dtgvRentBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvRentBook.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
             this.name,
             this.idCategory,
@@ -99,14 +108,15 @@
             this.nameAuthor,
             this.nameNXB,
             this.price});
-            this.dtgvBook.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dtgvBook.Location = new System.Drawing.Point(0, 29);
-            this.dtgvBook.Name = "dtgvBook";
-            this.dtgvBook.Size = new System.Drawing.Size(542, 170);
-            this.dtgvBook.TabIndex = 0;
+            this.dtgvRentBook.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dtgvRentBook.Location = new System.Drawing.Point(0, 33);
+            this.dtgvRentBook.Name = "dtgvRentBook";
+            this.dtgvRentBook.Size = new System.Drawing.Size(543, 170);
+            this.dtgvRentBook.TabIndex = 0;
             // 
             // id
             // 
+            this.id.DataPropertyName = "id";
             this.id.HeaderText = "Mã";
             this.id.Name = "id";
             this.id.Width = 25;
@@ -114,54 +124,126 @@
             // name
             // 
             this.name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.name.DataPropertyName = "name";
             this.name.HeaderText = "Tên sách";
             this.name.Name = "name";
             // 
             // idCategory
             // 
+            this.idCategory.DataPropertyName = "idCategory";
             this.idCategory.HeaderText = "Mã sách";
             this.idCategory.Name = "idCategory";
             this.idCategory.Width = 50;
             // 
             // releaseYear
             // 
+            this.releaseYear.DataPropertyName = "releaseYear";
             this.releaseYear.HeaderText = "Năm sản xuất";
             this.releaseYear.Name = "releaseYear";
             this.releaseYear.Width = 45;
             // 
             // nameAuthor
             // 
+            this.nameAuthor.DataPropertyName = "nameAuthor";
             this.nameAuthor.HeaderText = "Tên tác giả";
             this.nameAuthor.Name = "nameAuthor";
             this.nameAuthor.Width = 70;
             // 
             // nameNXB
             // 
+            this.nameNXB.DataPropertyName = "nameNXB";
             this.nameNXB.HeaderText = "Nhà xuất bản";
             this.nameNXB.Name = "nameNXB";
             this.nameNXB.Width = 55;
             // 
             // price
             // 
+            this.price.DataPropertyName = "price";
             this.price.HeaderText = "Giá";
             this.price.Name = "price";
             this.price.Width = 55;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.treeView1);
+            this.panel2.Controls.Add(this.btDmsVH);
+            this.panel2.Controls.Add(this.btDmsManga);
+            this.panel2.Controls.Add(this.btDmsCNTT);
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.btDMSLN);
+            this.panel2.Controls.Add(this.btDMSAll);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(12, 196);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(165, 230);
+            this.panel2.Size = new System.Drawing.Size(165, 234);
             this.panel2.TabIndex = 0;
             // 
-            // treeView1
+            // btDmsVH
             // 
-            this.treeView1.Location = new System.Drawing.Point(0, 29);
-            this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(162, 201);
-            this.treeView1.TabIndex = 2;
+            this.btDmsVH.BackColor = System.Drawing.Color.White;
+            this.btDmsVH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btDmsVH.Location = new System.Drawing.Point(3, 202);
+            this.btDmsVH.Name = "btDmsVH";
+            this.btDmsVH.Size = new System.Drawing.Size(159, 28);
+            this.btDmsVH.TabIndex = 1;
+            this.btDmsVH.Text = "Văn học";
+            this.btDmsVH.UseVisualStyleBackColor = false;
+            // 
+            // btDmsManga
+            // 
+            this.btDmsManga.BackColor = System.Drawing.Color.White;
+            this.btDmsManga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btDmsManga.Location = new System.Drawing.Point(3, 168);
+            this.btDmsManga.Name = "btDmsManga";
+            this.btDmsManga.Size = new System.Drawing.Size(159, 28);
+            this.btDmsManga.TabIndex = 1;
+            this.btDmsManga.Text = "manga";
+            this.btDmsManga.UseVisualStyleBackColor = false;
+            // 
+            // btDmsCNTT
+            // 
+            this.btDmsCNTT.BackColor = System.Drawing.Color.White;
+            this.btDmsCNTT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btDmsCNTT.Location = new System.Drawing.Point(3, 134);
+            this.btDmsCNTT.Name = "btDmsCNTT";
+            this.btDmsCNTT.Size = new System.Drawing.Size(159, 28);
+            this.btDmsCNTT.TabIndex = 1;
+            this.btDmsCNTT.Text = "Công nghệ thông tin";
+            this.btDmsCNTT.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(3, 100);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(159, 28);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "doujinshi";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // btDMSLN
+            // 
+            this.btDMSLN.BackColor = System.Drawing.Color.White;
+            this.btDMSLN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btDMSLN.Location = new System.Drawing.Point(3, 66);
+            this.btDMSLN.Name = "btDMSLN";
+            this.btDMSLN.Size = new System.Drawing.Size(159, 28);
+            this.btDMSLN.TabIndex = 1;
+            this.btDMSLN.Text = "light novel";
+            this.btDMSLN.UseVisualStyleBackColor = false;
+            this.btDMSLN.Click += new System.EventHandler(this.btDMSLN_Click);
+            // 
+            // btDMSAll
+            // 
+            this.btDMSAll.BackColor = System.Drawing.Color.White;
+            this.btDMSAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btDMSAll.Location = new System.Drawing.Point(3, 32);
+            this.btDMSAll.Name = "btDMSAll";
+            this.btDMSAll.Size = new System.Drawing.Size(159, 28);
+            this.btDMSAll.TabIndex = 1;
+            this.btDMSAll.Text = "All";
+            this.btDMSAll.UseVisualStyleBackColor = false;
+            this.btDMSAll.Click += new System.EventHandler(this.btDMSAll_Click);
             // 
             // label1
             // 
@@ -175,20 +257,20 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.dataGridView2);
+            this.panel3.Controls.Add(this.dtgvPickRentBook);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Location = new System.Drawing.Point(365, 29);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(361, 133);
             this.panel3.TabIndex = 0;
             // 
-            // dataGridView2
+            // dtgvPickRentBook
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(20, 29);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(240, 58);
-            this.dataGridView2.TabIndex = 1;
+            this.dtgvPickRentBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvPickRentBook.Location = new System.Drawing.Point(5, 29);
+            this.dtgvPickRentBook.Name = "dtgvPickRentBook";
+            this.dtgvPickRentBook.Size = new System.Drawing.Size(356, 101);
+            this.dtgvPickRentBook.TabIndex = 1;
             // 
             // label4
             // 
@@ -203,9 +285,11 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.lbfebMSSV);
+            this.panel4.Controls.Add(this.lbfrbName);
+            this.panel4.Controls.Add(this.label9);
+            this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.dateTimePicker1);
-            this.panel4.Controls.Add(this.txtMssv);
-            this.panel4.Controls.Add(this.txtUserName);
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.label5);
@@ -215,28 +299,47 @@
             this.panel4.Size = new System.Drawing.Size(346, 162);
             this.panel4.TabIndex = 0;
             // 
+            // lbfebMSSV
+            // 
+            this.lbfebMSSV.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.lbfebMSSV.Location = new System.Drawing.Point(107, 69);
+            this.lbfebMSSV.Name = "lbfebMSSV";
+            this.lbfebMSSV.Size = new System.Drawing.Size(200, 20);
+            this.lbfebMSSV.TabIndex = 3;
+            // 
+            // lbfrbName
+            // 
+            this.lbfrbName.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.lbfrbName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbfrbName.Location = new System.Drawing.Point(107, 33);
+            this.lbfrbName.Name = "lbfrbName";
+            this.lbfrbName.Size = new System.Drawing.Size(200, 22);
+            this.lbfrbName.TabIndex = 3;
+            this.lbfrbName.Click += new System.EventHandler(this.lbfrbName_Click);
+            // 
+            // label9
+            // 
+            this.label9.Location = new System.Drawing.Point(107, 33);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(200, 22);
+            this.label9.TabIndex = 3;
+            this.label9.Text = "label9";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(0, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "label8";
+            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(107, 106);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 1;
-            // 
-            // txtMssv
-            // 
-            this.txtMssv.Location = new System.Drawing.Point(107, 69);
-            this.txtMssv.Name = "txtMssv";
-            this.txtMssv.ReadOnly = true;
-            this.txtMssv.Size = new System.Drawing.Size(139, 20);
-            this.txtMssv.TabIndex = 2;
-            // 
-            // txtUserName
-            // 
-            this.txtUserName.Location = new System.Drawing.Point(107, 36);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.ReadOnly = true;
-            this.txtUserName.Size = new System.Drawing.Size(200, 20);
-            this.txtUserName.TabIndex = 2;
             // 
             // label7
             // 
@@ -286,23 +389,24 @@
             this.btConfirmRent.UseVisualStyleBackColor = true;
             this.btConfirmRent.Click += new System.EventHandler(this.btConfirmRent_Click);
             // 
-            // button3
+            // btfRBDeselect
             // 
-            this.button3.Location = new System.Drawing.Point(546, 168);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(96, 25);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Bỏ chọn";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btfRBDeselect.Location = new System.Drawing.Point(546, 168);
+            this.btfRBDeselect.Name = "btfRBDeselect";
+            this.btfRBDeselect.Size = new System.Drawing.Size(96, 25);
+            this.btfRBDeselect.TabIndex = 0;
+            this.btfRBDeselect.Text = "Bỏ chọn";
+            this.btfRBDeselect.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btThanThanh
             // 
-            this.button1.Location = new System.Drawing.Point(546, 401);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 25);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Thêm";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btThanThanh.Location = new System.Drawing.Point(546, 405);
+            this.btThanThanh.Name = "btThanThanh";
+            this.btThanThanh.Size = new System.Drawing.Size(96, 25);
+            this.btThanThanh.TabIndex = 0;
+            this.btThanThanh.Text = "Thêm";
+            this.btThanThanh.UseVisualStyleBackColor = true;
+            this.btThanThanh.Click += new System.EventHandler(this.btThanThanh_Click);
             // 
             // menuStrip1
             // 
@@ -336,28 +440,40 @@
             this.nhậpMãToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.nhậpMãToolStripMenuItem.Text = "Nhập mã";
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(95, 0);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // fRentBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 442);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btThanThanh);
+            this.Controls.Add(this.btfRBDeselect);
             this.Controls.Add(this.btConfirmRent);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "fRentBook";
             this.Text = "fRentBook";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fRentBook_FormClosing);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvBook)).EndInit();
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvRentBook)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvPickRentBook)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -374,17 +490,24 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btConfirmRent;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btfRBDeselect;
+        private System.Windows.Forms.Button btThanThanh;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridView dtgvBook;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dtgvRentBook;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mnReturnfRentBook;
         private System.Windows.Forms.ToolStripMenuItem discountToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nhậpMãToolStripMenuItem;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbfebMSSV;
+        private System.Windows.Forms.Label lbfrbName;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn idCategory;
@@ -392,13 +515,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn nameAuthor;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameNXB;
         private System.Windows.Forms.DataGridViewTextBoxColumn price;
-        private System.Windows.Forms.TreeView treeView1;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox txtMssv;
-        private System.Windows.Forms.TextBox txtUserName;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btDmsVH;
+        private System.Windows.Forms.Button btDmsManga;
+        private System.Windows.Forms.Button btDmsCNTT;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btDMSLN;
+        private System.Windows.Forms.Button btDMSAll;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dtgvPickRentBook;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

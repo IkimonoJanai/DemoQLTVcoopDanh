@@ -118,37 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="asdasdasd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\asdasdasd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="37740358_265002680945844_5831663752210022400_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\37740358_265002680945844_5831663752210022400_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="42784809_1700631966731480_2749685054136385536_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\42784809_1700631966731480_2749685054136385536_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btPicMssv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btPicMssv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Saintquartz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Saintquartz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="setting_youtube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting_youtube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="41188570_281680922652078_5144838339152576512_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\41188570_281680922652078_5144838339152576512_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="37740358_265002680945844_5831663752210022400_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\37740358_265002680945844_5831663752210022400_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="41735555_2287812011494235_1807251920952229888_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\41735555_2287812011494235_1807251920952229888_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21557581_914481685368156_1626043099622420229_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21557581_914481685368156_1626043099622420229_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_clip_rotate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_clip_rotate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btPicMssv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btPicMssv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_btn_setting_material_normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_btn_setting_material_normal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="41166776_281680885985415_7738645376416088064_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\41166776_281680885985415_7738645376416088064_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg_btn_setting_material_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_btn_setting_material_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg_addclip_editor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_addclip_editor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="btAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="42784809_1700631966731480_2749685054136385536_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42784809_1700631966731480_2749685054136385536_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_duration_selection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_duration_selection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asdasdasd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asdasdasd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="my_studio_edit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\my_studio_edit_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Saintquartz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Saintquartz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Img\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_btn_add_sticker_draw_picture_normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_btn_add_sticker_draw_picture_normal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_btn_add_sticker_draw_picture_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_btn_add_sticker_draw_picture_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Img\11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book_ends_311495" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Img\book_ends_311495.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

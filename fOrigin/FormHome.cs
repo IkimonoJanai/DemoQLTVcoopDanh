@@ -19,7 +19,6 @@ namespace DemoQuanLyThuVien
             set { loginAccountUser = value; ChangeAccount(loginAccountUser.Type); }
         }
 
-
         //ChangeAccount(loginAccountUser.Type);
 
         public FormHome(Account acc)
@@ -27,15 +26,6 @@ namespace DemoQuanLyThuVien
             InitializeComponent();
             this.LoginAccountUser = acc;
         }
-        private void label2_MouseHover(object sender, EventArgs e)
-        {
-            
-        }
-        private void label2_MouseLeave(object sender, EventArgs e)
-        {
-
-        }
-
         private void Main_Load(object sender, EventArgs e)
         {
 
@@ -60,13 +50,7 @@ namespace DemoQuanLyThuVien
 
         #endregion 
 
-        private void mnAdminHause_Click(object sender, EventArgs e)
-        {
-            FormAdmin fA = new FormAdmin();
-            this.Hide();
-            fA.ShowDialog();
-            this.Show();
-        }
+
 
         void ChangeAccount (int Type)
         {
@@ -78,6 +62,14 @@ namespace DemoQuanLyThuVien
             fRentBook fRB = new fRentBook();
             this.Hide();
             fRB.ShowDialog();
+            this.Show();
+        }
+
+        private void mnAdminHause_Click(object sender, EventArgs e)
+        {
+            FormAdmin fA = new FormAdmin();
+            this.Hide();
+            fA.ShowDialog();
             this.Show();
         }
 

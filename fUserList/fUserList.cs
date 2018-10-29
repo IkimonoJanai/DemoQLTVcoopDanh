@@ -28,11 +28,9 @@ namespace DemoQuanLyThuVien
         {
             string cnStr = "Data Source=BEOSAMA-PC\\SQLEXPRESS;Initial Catalog=DemoQuanLyThuVienAlphaVer1_2;Integrated Security=True";
             cn = new SqlConnection(cnStr);
-
             DataSet ds = LoadUserList();
             UserListTable = ds.Tables[0];
             dtgvfUserList.DataSource = UserListTable;
-
         }
 
         private void btAddfUserList_Click(object sender, EventArgs e)
@@ -42,7 +40,6 @@ namespace DemoQuanLyThuVien
             row["DisplayName"] = txtDisplayfUserList.Text;
             row["PassWord"] = txtPassfUserList5.Text;
             row["Type"] = nbfUserList.Value;// dcm best vl
-
             UserListTable.Rows.Add(row);
         }
 
@@ -55,7 +52,8 @@ namespace DemoQuanLyThuVien
 
         private void btChangefUserList_Click(object sender, EventArgs e)
         {
-            //dcm no ko biet cu phap update
+            // ko biet cu phap update
+
         }
 
         private void dtgvfUserList_CellContentClick(object sender, DataGridViewCellEventArgs e)

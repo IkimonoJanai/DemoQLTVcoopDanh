@@ -54,9 +54,9 @@ namespace DemoQuanLyThuVien.DAO
             int data = 0;
             using (SqlConnection cn = new SqlConnection(cnStr))
             {
-                cn.Open();
+                
                 SqlCommand cmd = new SqlCommand(sql, cn);
-
+                cn.Open();
                 if (parameter != null)
                 {
                     string[] listpara = sql.Split(' ');
@@ -70,6 +70,7 @@ namespace DemoQuanLyThuVien.DAO
                         }
                     }
                 }
+                data = cmd.ExecuteNonQuery();
                 cn.Close();
             }
 

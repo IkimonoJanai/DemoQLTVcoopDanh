@@ -63,6 +63,36 @@ namespace DemoQuanLyThuVien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1 {
+            get {
+                object obj = ResourceManager.GetObject("1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _11 {
+            get {
+                object obj = ResourceManager.GetObject("11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _21557581_914481685368156_1626043099622420229_n {
+            get {
+                object obj = ResourceManager.GetObject("21557581_914481685368156_1626043099622420229_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _37740358_265002680945844_5831663752210022400_n {
             get {
                 object obj = ResourceManager.GetObject("37740358_265002680945844_5831663752210022400_n", resourceCulture);
@@ -113,6 +143,26 @@ namespace DemoQuanLyThuVien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arrow {
+            get {
+                object obj = ResourceManager.GetObject("arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow1 {
+            get {
+                object obj = ResourceManager.GetObject("arrow1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap asdasdasd {
             get {
                 object obj = ResourceManager.GetObject("asdasdasd", resourceCulture);
@@ -126,6 +176,76 @@ namespace DemoQuanLyThuVien.Properties {
         internal static System.Drawing.Bitmap bg_addclip_editor {
             get {
                 object obj = ResourceManager.GetObject("bg_addclip_editor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg_btn_add_sticker_draw_picture_normal {
+            get {
+                object obj = ResourceManager.GetObject("bg_btn_add_sticker_draw_picture_normal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg_btn_add_sticker_draw_picture_normal1 {
+            get {
+                object obj = ResourceManager.GetObject("bg_btn_add_sticker_draw_picture_normal1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg_btn_setting_material_normal {
+            get {
+                object obj = ResourceManager.GetObject("bg_btn_setting_material_normal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg_btn_setting_material_normal1 {
+            get {
+                object obj = ResourceManager.GetObject("bg_btn_setting_material_normal1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg_duration_selection {
+            get {
+                object obj = ResourceManager.GetObject("bg_duration_selection", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book_ends_311495 {
+            get {
+                object obj = ResourceManager.GetObject("book_ends_311495", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bt_clip_rotate {
+            get {
+                object obj = ResourceManager.GetObject("bt_clip_rotate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +286,16 @@ namespace DemoQuanLyThuVien.Properties {
         internal static System.Drawing.Bitmap Saintquartz {
             get {
                 object obj = ResourceManager.GetObject("Saintquartz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap setting_youtube {
+            get {
+                object obj = ResourceManager.GetObject("setting_youtube", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

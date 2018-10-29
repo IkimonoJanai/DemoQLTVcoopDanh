@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ButtonAdminShowList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ButtonAdminShowList.Designer.cs">
+      <DependentUpon>ButtonAdminShowList.cs</DependentUpon>
+    </Compile>
     <Compile Include="DAO\BookDAO.cs" />
     <Compile Include="DAO\CategoryDAO.cs" />
     <Compile Include="DrawHinhThoi.cs">
@@ -130,6 +136,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ButtonAdminShowList.resx">
+      <DependentUpon>ButtonAdminShowList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fBookList\fBookList.resx">
       <DependentUpon>fBookList.cs</DependentUpon>
     </EmbeddedResource>
@@ -221,6 +230,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btPicMssv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21557581_914481685368156_1626043099622420229_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting_youtube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_duration_selection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_btn_setting_material_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_clip_rotate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_btn_add_sticker_draw_picture_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_btn_add_sticker_draw_picture_normal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_btn_setting_material_normal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\book_ends_311495.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

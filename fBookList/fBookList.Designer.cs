@@ -36,9 +36,9 @@
             this.txtBookListAuthor = new System.Windows.Forms.TextBox();
             this.cbBookListIdCategory = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btfBookListDelete = new System.Windows.Forms.Button();
             this.txtBookListName = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btfBookListChange = new System.Windows.Forms.Button();
             this.btfBookListRefresh = new System.Windows.Forms.Button();
             this.btfBookListAdd = new System.Windows.Forms.Button();
             this.txtBookListNameNXB = new System.Windows.Forms.TextBox();
@@ -59,8 +59,6 @@
             this.nameAuthor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameNXB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Delete = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.Change = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvfBookList)).BeginInit();
             this.panel2.SuspendLayout();
@@ -87,9 +85,7 @@
             this.releaseYear,
             this.nameAuthor,
             this.nameNXB,
-            this.price,
-            this.Delete,
-            this.Change});
+            this.price});
             this.dtgvfBookList.Location = new System.Drawing.Point(3, 20);
             this.dtgvfBookList.Name = "dtgvfBookList";
             this.dtgvfBookList.Size = new System.Drawing.Size(680, 244);
@@ -102,9 +98,9 @@
             this.panel2.Controls.Add(this.txtBookListAuthor);
             this.panel2.Controls.Add(this.cbBookListIdCategory);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.btfBookListDelete);
             this.panel2.Controls.Add(this.txtBookListName);
-            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.btfBookListChange);
             this.panel2.Controls.Add(this.btfBookListRefresh);
             this.panel2.Controls.Add(this.btfBookListAdd);
             this.panel2.Controls.Add(this.txtBookListNameNXB);
@@ -161,9 +157,9 @@
             // cbBookListIdCategory
             // 
             this.cbBookListIdCategory.FormattingEnabled = true;
-            this.cbBookListIdCategory.Location = new System.Drawing.Point(234, 7);
+            this.cbBookListIdCategory.Location = new System.Drawing.Point(174, 7);
             this.cbBookListIdCategory.Name = "cbBookListIdCategory";
-            this.cbBookListIdCategory.Size = new System.Drawing.Size(100, 21);
+            this.cbBookListIdCategory.Size = new System.Drawing.Size(160, 21);
             this.cbBookListIdCategory.TabIndex = 3;
             // 
             // label3
@@ -174,14 +170,15 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Tên sách";
             // 
-            // button4
+            // btfBookListDelete
             // 
-            this.button4.Location = new System.Drawing.Point(234, 71);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(68, 31);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Lưu";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btfBookListDelete.Location = new System.Drawing.Point(234, 71);
+            this.btfBookListDelete.Name = "btfBookListDelete";
+            this.btfBookListDelete.Size = new System.Drawing.Size(68, 31);
+            this.btfBookListDelete.TabIndex = 2;
+            this.btfBookListDelete.Text = "Xóa";
+            this.btfBookListDelete.UseVisualStyleBackColor = true;
+            this.btfBookListDelete.Click += new System.EventHandler(this.btfBookListDelete_Click);
             // 
             // txtBookListName
             // 
@@ -190,23 +187,27 @@
             this.txtBookListName.Size = new System.Drawing.Size(264, 20);
             this.txtBookListName.TabIndex = 1;
             // 
-            // button3
+            // btfBookListChange
             // 
-            this.button3.Location = new System.Drawing.Point(160, 71);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(68, 31);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Sửa";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btfBookListChange.Location = new System.Drawing.Point(160, 71);
+            this.btfBookListChange.Name = "btfBookListChange";
+            this.btfBookListChange.Size = new System.Drawing.Size(68, 31);
+            this.btfBookListChange.TabIndex = 2;
+            this.btfBookListChange.Text = "Sửa";
+            this.btfBookListChange.UseVisualStyleBackColor = true;
+            this.btfBookListChange.Click += new System.EventHandler(this.btfBookListChange_Click);
             // 
             // btfBookListRefresh
             // 
+            this.btfBookListRefresh.BackColor = System.Drawing.Color.White;
+            this.btfBookListRefresh.BackgroundImage = global::DemoQuanLyThuVien.Properties.Resources.bt_clip_rotate;
+            this.btfBookListRefresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btfBookListRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btfBookListRefresh.Location = new System.Drawing.Point(86, 71);
             this.btfBookListRefresh.Name = "btfBookListRefresh";
             this.btfBookListRefresh.Size = new System.Drawing.Size(68, 31);
             this.btfBookListRefresh.TabIndex = 2;
-            this.btfBookListRefresh.Text = "***";
-            this.btfBookListRefresh.UseVisualStyleBackColor = true;
+            this.btfBookListRefresh.UseVisualStyleBackColor = false;
             this.btfBookListRefresh.Click += new System.EventHandler(this.btfBookListRefresh_Click);
             // 
             // btfBookListAdd
@@ -217,6 +218,7 @@
             this.btfBookListAdd.TabIndex = 2;
             this.btfBookListAdd.Text = "Thêm";
             this.btfBookListAdd.UseVisualStyleBackColor = true;
+            this.btfBookListAdd.Click += new System.EventHandler(this.btfBookListAdd_Click);
             // 
             // txtBookListNameNXB
             // 
@@ -250,7 +252,7 @@
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(171, 10);
+            this.label5.Location = new System.Drawing.Point(115, 10);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 23);
             this.label5.TabIndex = 0;
@@ -260,7 +262,8 @@
             // 
             this.txtBookListId.Location = new System.Drawing.Point(54, 10);
             this.txtBookListId.Name = "txtBookListId";
-            this.txtBookListId.Size = new System.Drawing.Size(100, 20);
+            this.txtBookListId.ReadOnly = true;
+            this.txtBookListId.Size = new System.Drawing.Size(55, 20);
             this.txtBookListId.TabIndex = 1;
             this.txtBookListId.TextChanged += new System.EventHandler(this.txtBookListId_TextChanged);
             // 
@@ -307,7 +310,7 @@
             // id
             // 
             this.id.DataPropertyName = "id";
-            this.id.HeaderText = "Mã sách";
+            this.id.HeaderText = "Mã";
             this.id.Name = "id";
             this.id.Width = 30;
             // 
@@ -354,22 +357,6 @@
             this.price.Name = "price";
             this.price.Width = 65;
             // 
-            // Delete
-            // 
-            this.Delete.HeaderText = "Xóa";
-            this.Delete.Name = "Delete";
-            this.Delete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Delete.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Delete.Width = 35;
-            // 
-            // Change
-            // 
-            this.Change.HeaderText = "Sửa";
-            this.Change.Name = "Change";
-            this.Change.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Change.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Change.Width = 35;
-            // 
             // fBookList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -381,7 +368,6 @@
             this.Controls.Add(this.menuStrip1);
             this.Name = "fBookList";
             this.Text = "fBookList";
-            this.Load += new System.EventHandler(this.fBookList_Load);
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvfBookList)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -402,8 +388,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mnfRentList;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btfBookListDelete;
+        private System.Windows.Forms.Button btfBookListChange;
         private System.Windows.Forms.Button btfBookListRefresh;
         private System.Windows.Forms.Button btfBookListAdd;
         private System.Windows.Forms.TextBox txtBookListNameNXB;
@@ -427,7 +413,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn nameAuthor;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameNXB;
         private System.Windows.Forms.DataGridViewTextBoxColumn price;
-        private System.Windows.Forms.DataGridViewButtonColumn Delete;
-        private System.Windows.Forms.DataGridViewButtonColumn Change;
     }
 }

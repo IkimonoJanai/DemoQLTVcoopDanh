@@ -68,8 +68,5 @@ namespace DemoQuanLyThuVien
         {
             return AccountDAO.Instance.Login(userName, passWord);
         }
-        
-
-
     }
 }

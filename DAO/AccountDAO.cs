@@ -21,29 +21,11 @@ namespace DemoQuanLyThuVien.DAO
 
         public bool Login(string userName, string passWord)
         {
-            //string sql = "SELECT * FROM dbo.Account WHERE UserName = N'" + userName + "' AND PassWord = N'" + passWord + "' ";
             string sql = "USP_Login @userName , @passWord";
             DataTable result = DataProvider.Instance.ExecuteQuery(sql ,new object[] {@userName , @passWord});
 
             return result.Rows.Count > 0;
         }
-
-        //public Account LoginById(int id)
-        //{
-        //    // not fix yet 
-        //    // tao login cho user va admin rieng
-        //    Account account = null;
-        //    string sql = "SELECT * FROM Account WHERE Type = " + id;
-        //    DataTable data = DataProvider.Instance.ExecuteQuery(sql);
-
-        //    foreach (DataRow item in data.Rows)
-        //    {
-        //        account = new Account(item);
-        //        return account;
-        //    }
-
-        //    return account;
-        //}
 
         public Account LoginByUsername(string userName)
         {
@@ -54,16 +36,11 @@ namespace DemoQuanLyThuVien.DAO
             {
                 return new Account(item);
             }
-
             return null;
         }
         bool LoginAdmin(string userName , string passWord)
         {
-
-
             return LoginAdmin(userName, passWord);
-
-
         }
     }
 }
