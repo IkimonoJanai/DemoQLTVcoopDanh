@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btRent = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -61,6 +62,7 @@
             // 
             this.panel3.BackgroundImage = global::DemoQuanLyThuVien.Properties.Resources._41735555_2287812011494235_1807251920952229888_n;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel3.Controls.Add(this.panel1);
             this.panel3.Controls.Add(this.panel2);
             this.panel3.Controls.Add(this.menuStrip1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -68,6 +70,14 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(725, 460);
             this.panel3.TabIndex = 3;
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::DemoQuanLyThuVien.Properties.Resources.arrowUp;
+            this.panel1.Location = new System.Drawing.Point(2, 26);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(165, 418);
+            this.panel1.TabIndex = 5;
             // 
             // panel2
             // 
@@ -291,6 +301,7 @@
         private System.Windows.Forms.ToolStripMenuItem đítToolStripMenuItem16;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ToolStripMenuItem mnAdminHause;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

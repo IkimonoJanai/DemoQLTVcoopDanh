@@ -35,6 +35,7 @@
             this.btExit = new System.Windows.Forms.Button();
             this.btLogin = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.dragable1 = new DemoQuanLyThuVien.Dragable();
             this.SuspendLayout();
             // 
             // label1
@@ -100,6 +101,10 @@
             this.checkBox1.Text = "remember me";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // dragable1
+            // 
+            this.dragable1.SelectControl = this;
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -133,5 +138,6 @@
         private System.Windows.Forms.Button btExit;
         private System.Windows.Forms.Button btLogin;
         private System.Windows.Forms.CheckBox checkBox1;
+        private Dragable dragable1;
     }
 }
