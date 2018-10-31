@@ -19,7 +19,8 @@ namespace DemoQuanLyThuVien
 
         private void FormLogin_Load(object sender, EventArgs e)
         {
-
+            txtName.Text = Properties.Settings.Default.UserName;
+            txtPassword.Text = Properties.Settings.Default.PassWork;
         }
         #region Property
         #endregion
@@ -39,11 +40,24 @@ namespace DemoQuanLyThuVien
 
             string userName = txtName.Text;
             string passWord = txtPassword.Text;
+
             if (Login(userName, passWord))
             {
                 Account loginAccountUser = AccountDAO.Instance.LoginByUsername(userName);
 
                 FormHome f = new FormHome(loginAccountUser);
+                if (checkBox1.Checked)
+                {
+                    Properties.Settings.Default.UserName = txtName.Text;
+                    Properties.Settings.Default.PassWork = txtPassword.Text;
+                    Properties.Settings.Default.Save();
+                }
+                else
+                {
+
+                    Properties.Settings.Default.UserName = txtName.Text;
+                    Properties.Settings.Default.Save();
+                }
                 this.Hide();
                 f.ShowDialog();
                 this.Show();

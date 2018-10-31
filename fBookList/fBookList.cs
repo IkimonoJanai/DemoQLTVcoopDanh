@@ -103,19 +103,18 @@ namespace DemoQuanLyThuVien
         private void btfBookListChange_Click(object sender, EventArgs e)
         {
             string name = txtBookListName.Text;
-            int cateId = (cbBookListIdCategory.SelectedItem as Category).id;
+            int cateId = /*Convert.ToInt32( txtBookListId.Text)*/(cbBookListIdCategory.SelectedItem as Category).id;
             int yearrl = int.Parse(txtBookListYear.Text);
             string nameAuthor = txtBookListAuthor.Text;
             string nameNXB = txtBookListNameNXB.Text;
             float price = (float)nbfBookListPrice.Value;
             int idBook = int.Parse(txtBookListId.Text);// convert.toint32(a.text)
 
+            //MessageBox.Show(idBook.ToString());
             if (BookDAO.Instance.UpdateBook(idBook, name, cateId, yearrl, nameAuthor, nameNXB, price))
             {
                 MessageBox.Show("Đã sửa");
                 load();
-                if (updateBook != null)
-                    updateBook(this, new EventArgs());
             }
             else
             {
@@ -138,11 +137,11 @@ namespace DemoQuanLyThuVien
             }
         }
 
-        private event EventHandler updateBook;
-        public event EventHandler UpdateBook
-        {
-            add { updateBook += value; }
-            remove { updateBook -= value; }
-        }
+        //private event EventHandler updateBook;
+        //public event EventHandler UpdateBook
+        //{
+        //    add { updateBook += value; }
+        //    remove { updateBook -= value; }
+        //}
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.dtgvRentBook = new System.Windows.Forms.DataGridView();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,7 +43,7 @@
             this.btDmsVH = new System.Windows.Forms.Button();
             this.btDmsManga = new System.Windows.Forms.Button();
             this.btDmsCNTT = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btDmsDoujin = new System.Windows.Forms.Button();
             this.btDMSLN = new System.Windows.Forms.Button();
             this.btDMSAll = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -66,7 +67,8 @@
             this.mnReturnfRentBook = new System.Windows.Forms.ToolStripMenuItem();
             this.discountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nhậpMãToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvRentBook)).BeginInit();
             this.panel2.SuspendLayout();
@@ -74,6 +76,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPickRentBook)).BeginInit();
             this.panel4.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -85,6 +88,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(543, 203);
             this.panel1.TabIndex = 0;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(95, 0);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -168,7 +181,7 @@
             this.panel2.Controls.Add(this.btDmsVH);
             this.panel2.Controls.Add(this.btDmsManga);
             this.panel2.Controls.Add(this.btDmsCNTT);
-            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.btDmsDoujin);
             this.panel2.Controls.Add(this.btDMSLN);
             this.panel2.Controls.Add(this.btDMSAll);
             this.panel2.Controls.Add(this.label1);
@@ -187,6 +200,7 @@
             this.btDmsVH.TabIndex = 1;
             this.btDmsVH.Text = "Văn học";
             this.btDmsVH.UseVisualStyleBackColor = false;
+            this.btDmsVH.Click += new System.EventHandler(this.btDmsVH_Click);
             // 
             // btDmsManga
             // 
@@ -198,6 +212,7 @@
             this.btDmsManga.TabIndex = 1;
             this.btDmsManga.Text = "manga";
             this.btDmsManga.UseVisualStyleBackColor = false;
+            this.btDmsManga.Click += new System.EventHandler(this.btDmsManga_Click);
             // 
             // btDmsCNTT
             // 
@@ -209,17 +224,19 @@
             this.btDmsCNTT.TabIndex = 1;
             this.btDmsCNTT.Text = "Công nghệ thông tin";
             this.btDmsCNTT.UseVisualStyleBackColor = false;
+            this.btDmsCNTT.Click += new System.EventHandler(this.btDmsCNTT_Click);
             // 
-            // button2
+            // btDmsDoujin
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(3, 100);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 28);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "doujinshi";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btDmsDoujin.BackColor = System.Drawing.Color.White;
+            this.btDmsDoujin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btDmsDoujin.Location = new System.Drawing.Point(3, 100);
+            this.btDmsDoujin.Name = "btDmsDoujin";
+            this.btDmsDoujin.Size = new System.Drawing.Size(159, 28);
+            this.btDmsDoujin.TabIndex = 1;
+            this.btDmsDoujin.Text = "doujinshi";
+            this.btDmsDoujin.UseVisualStyleBackColor = false;
+            this.btDmsDoujin.Click += new System.EventHandler(this.btDmsDoujin_Click);
             // 
             // btDMSLN
             // 
@@ -415,7 +432,7 @@
             this.discountToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(738, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(929, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -440,21 +457,29 @@
             this.nhậpMãToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.nhậpMãToolStripMenuItem.Text = "Nhập mã";
             // 
-            // checkBox1
+            // listView1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(95, 0);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.listView1.GridLines = true;
+            this.listView1.Location = new System.Drawing.Point(14, 10);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(171, 372);
+            this.listView1.TabIndex = 2;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.listView1);
+            this.panel5.Location = new System.Drawing.Point(732, 29);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(197, 401);
+            this.panel5.TabIndex = 3;
             // 
             // fRentBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(738, 442);
+            this.ClientSize = new System.Drawing.Size(929, 442);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.btThanThanh);
             this.Controls.Add(this.btfRBDeselect);
             this.Controls.Add(this.btConfirmRent);
@@ -478,6 +503,7 @@
             this.panel4.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -518,11 +544,13 @@
         private System.Windows.Forms.Button btDmsVH;
         private System.Windows.Forms.Button btDmsManga;
         private System.Windows.Forms.Button btDmsCNTT;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btDmsDoujin;
         private System.Windows.Forms.Button btDMSLN;
         private System.Windows.Forms.Button btDMSAll;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dtgvPickRentBook;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Panel panel5;
     }
 }

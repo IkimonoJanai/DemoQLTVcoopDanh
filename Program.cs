@@ -16,7 +16,7 @@ namespace DemoQuanLyThuVien
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fBookList());
+            Application.Run(new FormLogin());
         }
     }
 }

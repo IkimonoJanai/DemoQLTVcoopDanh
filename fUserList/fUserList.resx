@@ -132,9 +132,9 @@
   <metadata name="Delete.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Change.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Đạt 8 triệu điểm kinh nghiệm để có thể làm chức vụ 1 mà điều đó sẽ khiến bạn tốn 1 cái giá mà có lẽ bạn sẽ không cần vì khi bạn đạt được cái chức này thì bạn sẽ thấy cái giá đó không hề đang với cái mà bạn đã bỏ ra chỉ để được 1 thứ mà có lẽ bạn sẽ không bao giờ cần hoặc là bạn sẽ không dùng thới ì cơ bản là no không thể rồi vì vậy tôi khuyên bạn nên và thực sự là nên vì điều đó rất là ngu ngốc chứ nếu bạn khôn thì bạn đã không bị hoặc phải làm theo vì tò mò và đó là điều thật sự không hề tốt vì tò mò không hề tốt 1 chút nào hết vì vậy bạn hoy4 quay đầu lại đi trước khi quá muộn</value>
+  </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

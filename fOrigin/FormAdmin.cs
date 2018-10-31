@@ -79,7 +79,7 @@ namespace DemoQuanLyThuVien
                     MenuSlide.Stop();
                     hidden = false;
                     this.Refresh();
-                    btMenuClose.Text = "MENU";
+                    button1.Text = "MENU";
                 }
             }
             else
@@ -90,15 +90,12 @@ namespace DemoQuanLyThuVien
                     MenuSlide.Stop();
                     hidden = true;
                     this.Refresh();
-                    btMenuClose.Text = "CLOSE";
+                    button1.Text = "CLOSE";
                 }
             }
         }
 
-        private void btMenuClose_Click(object sender, EventArgs e)
-        {
-            MenuSlide.Start();
-        }
+
 
         private int ImageId = 1;
         private void LoadImageRunning()
@@ -116,8 +113,30 @@ namespace DemoQuanLyThuVien
             LoadImageRunning();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MenuSlide.Start();
+        }
+
+        private void picBanhRang_Click(object sender, EventArgs e)
+        {
+
+        }
 
 
+        //public Image RotateImage(Image img , float rotateNum)
+        //{
+
+        //                //picBanhRang.Image = new PictureBox();
+        //    //turn pic => gra
+        //    Graphics g = Graphics.FromImage(picBanhRang.Image);
+        //    //set point
+        //    g.TranslateTransform((float)picBanhRang.Image.Width/2, (float)picBanhRang.Image.Height/2);
+        //    //
+        //    g.RotateTransform(rotateNum);
+        //    return picBanhRang.Image;
+
+        //}
 
 
 

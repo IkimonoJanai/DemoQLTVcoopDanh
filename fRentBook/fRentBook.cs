@@ -39,10 +39,7 @@ namespace DemoQuanLyThuVien
             //this.lbfebMSSV = txt
         }
 
-        private void btDMSLN_Click(object sender, EventArgs e)
-        {
-            dtgvRentBook.DataSource = BookDAO.Instance.getBookById(1);
-        }
+
 
         private void btDMSAll_Click(object sender, EventArgs e)
         {
@@ -58,8 +55,38 @@ namespace DemoQuanLyThuVien
                 
             }
         }
+        private void btDMSLN_Click(object sender, EventArgs e)
+        {
+            dtgvRentBook.DataSource = BookDAO.Instance.getBookById(1);
+        }
+
+        private void btDmsManga_Click(object sender, EventArgs e)
+        {
+            dtgvPickRentBook.DataSource = BookDAO.Instance.getBookById(2);
+        }
+
+        private void btDmsVH_Click(object sender, EventArgs e)
+        {
+            dtgvPickRentBook.DataSource = BookDAO.Instance.getBookById(5);
+        }
+
+        private void btDmsDoujin_Click(object sender, EventArgs e)
+        {
+            dtgvPickRentBook.DataSource = BookDAO.Instance.getBookById(4);
+        }
+
+        private void btDmsCNTT_Click(object sender, EventArgs e)
+        {
+            dtgvPickRentBook.DataSource = BookDAO.Instance.getBookById(3);
+        }
+
+        void GetDataForDtgvPickRentBook()
+        {
+            
 
 
+
+        }
 
 
 
