@@ -1,0 +1,57 @@
+c:\users\beosama\documents\visual studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.exe
+c:\users\beosama\documents\visual studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.pdb
+c:\users\beosama\documents\visual studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormLogin.resources
+c:\users\beosama\documents\visual studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.Properties.Resources.resources
+c:\users\beosama\documents\visual studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.csproj.GenerateResource.Cache
+c:\users\beosama\documents\visual studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.exe
+c:\users\beosama\documents\visual studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.pdb
+C:\Users\Beosama\Documents\Visual Studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.Main.resources
+C:\Users\Beosama\Documents\Visual Studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.frmSachA.resources
+C:\Users\Beosama\Documents\Visual Studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormUsers.resources
+C:\Users\Beosama\Documents\Visual Studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormAdmin.resources
+C:\Users\Beosama\Documents\Visual Studio 2010\Projects\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.exe
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.pdb
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.exe
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.pdb
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormAdmin.resources
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormUsers.resources
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.Main.resources
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormLogin.resources
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.frmSachA.resources
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.Properties.Resources.resources
+C:\Users\nhan\Desktop\New folder (2)\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.exe
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.pdb
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormAdmin.resources
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormUsers.resources
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.Main.resources
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormLogin.resources
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.frmSachA.resources
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.Properties.Resources.resources
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.exe
+C:\Users\Beosama\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.pdb
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.exe
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.pdb
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.exe
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.pdb
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormAdmin.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormLogin.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.Properties.Resources.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.csproj.GenerateResource.Cache
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.fRentBook.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.fRentBookLogin.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.fRentBookSignUp.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.fRentList.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.fRentBookBill.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.fBookList.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.fUserList.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.fHomePage.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.FormHome.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.fOrigin.FormAdminInfo.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.ButtonAdminShowList.resources
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.exe.config
+D:\New folder (2)\AllDownload\Desktop\DemoQuanLyThuVien-Tester\DemoQuanLyThuVien\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.csprojResolveAssemblyReference.cache
