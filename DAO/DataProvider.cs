@@ -9,7 +9,7 @@ namespace DemoQuanLyThuVien.DAO
 {
     public class DataProvider
     {
-        private string cnStr = "Data Source=BEOSAMA-PC\\SQLEXPRESS;Initial Catalog=DemoQuanLyThuVienAlphaVer1_2;Integrated Security=True";
+        private string cnStr = "Data Source=.;Initial Catalog=DemoQuanLyThuVienAlphaVer1_3;Integrated Security=True";
         private static DataProvider instance;
         
         public static DataProvider Instance

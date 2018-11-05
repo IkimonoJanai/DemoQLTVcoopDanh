@@ -30,6 +30,13 @@
         {
             this.panel3 = new System.Windows.Forms.Panel();
             this.dtgvfBookList = new System.Windows.Forms.DataGridView();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.releaseYear = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameAuthor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameNXB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.nbfBookListPrice = new System.Windows.Forms.NumericUpDown();
@@ -52,13 +59,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnfRentList = new System.Windows.Forms.ToolStripMenuItem();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.idCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.releaseYear = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameAuthor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameNXB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvfBookList)).BeginInit();
             this.panel2.SuspendLayout();
@@ -90,6 +90,56 @@
             this.dtgvfBookList.Name = "dtgvfBookList";
             this.dtgvfBookList.Size = new System.Drawing.Size(680, 244);
             this.dtgvfBookList.TabIndex = 0;
+            // 
+            // id
+            // 
+            this.id.DataPropertyName = "id";
+            this.id.HeaderText = "Mã";
+            this.id.Name = "id";
+            this.id.Width = 30;
+            // 
+            // name
+            // 
+            this.name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.name.DataPropertyName = "name";
+            this.name.HeaderText = "Tên sách";
+            this.name.Name = "name";
+            // 
+            // idCategory
+            // 
+            this.idCategory.DataPropertyName = "idCategory";
+            this.idCategory.HeaderText = "Mã sách";
+            this.idCategory.Name = "idCategory";
+            this.idCategory.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.idCategory.Width = 30;
+            // 
+            // releaseYear
+            // 
+            this.releaseYear.DataPropertyName = "releaseYear";
+            this.releaseYear.HeaderText = "Năm SX";
+            this.releaseYear.Name = "releaseYear";
+            this.releaseYear.Width = 40;
+            // 
+            // nameAuthor
+            // 
+            this.nameAuthor.DataPropertyName = "nameAuthor";
+            this.nameAuthor.HeaderText = "Tên tác giả";
+            this.nameAuthor.Name = "nameAuthor";
+            this.nameAuthor.Width = 110;
+            // 
+            // nameNXB
+            // 
+            this.nameNXB.DataPropertyName = "nameNXB";
+            this.nameNXB.HeaderText = "Tên NXB";
+            this.nameNXB.Name = "nameNXB";
+            this.nameNXB.Width = 80;
+            // 
+            // price
+            // 
+            this.price.DataPropertyName = "price";
+            this.price.HeaderText = "Giá";
+            this.price.Name = "price";
+            this.price.Width = 65;
             // 
             // panel2
             // 
@@ -304,58 +354,8 @@
             // mnfRentList
             // 
             this.mnfRentList.Name = "mnfRentList";
-            this.mnfRentList.Size = new System.Drawing.Size(46, 20);
+            this.mnfRentList.Size = new System.Drawing.Size(52, 20);
             this.mnfRentList.Text = "Home";
-            // 
-            // id
-            // 
-            this.id.DataPropertyName = "id";
-            this.id.HeaderText = "Mã";
-            this.id.Name = "id";
-            this.id.Width = 30;
-            // 
-            // name
-            // 
-            this.name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.name.DataPropertyName = "name";
-            this.name.HeaderText = "Tên sách";
-            this.name.Name = "name";
-            // 
-            // idCategory
-            // 
-            this.idCategory.DataPropertyName = "idCategory";
-            this.idCategory.HeaderText = "Mã sách";
-            this.idCategory.Name = "idCategory";
-            this.idCategory.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.idCategory.Width = 30;
-            // 
-            // releaseYear
-            // 
-            this.releaseYear.DataPropertyName = "releaseYear";
-            this.releaseYear.HeaderText = "Năm SX";
-            this.releaseYear.Name = "releaseYear";
-            this.releaseYear.Width = 40;
-            // 
-            // nameAuthor
-            // 
-            this.nameAuthor.DataPropertyName = "nameAuthor";
-            this.nameAuthor.HeaderText = "Tên tác giả";
-            this.nameAuthor.Name = "nameAuthor";
-            this.nameAuthor.Width = 110;
-            // 
-            // nameNXB
-            // 
-            this.nameNXB.DataPropertyName = "nameNXB";
-            this.nameNXB.HeaderText = "Tên NXB";
-            this.nameNXB.Name = "nameNXB";
-            this.nameNXB.Width = 80;
-            // 
-            // price
-            // 
-            this.price.DataPropertyName = "price";
-            this.price.HeaderText = "Giá";
-            this.price.Name = "price";
-            this.price.Width = 65;
             // 
             // fBookList
             // 

@@ -67,8 +67,8 @@
             this.mnReturnfRentBook = new System.Windows.Forms.ToolStripMenuItem();
             this.discountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nhậpMãToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listView1 = new System.Windows.Forms.ListView();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvRentBook)).BeginInit();
             this.panel2.SuspendLayout();
@@ -76,7 +76,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPickRentBook)).BeginInit();
             this.panel4.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -439,7 +439,7 @@
             // mnReturnfRentBook
             // 
             this.mnReturnfRentBook.Name = "mnReturnfRentBook";
-            this.mnReturnfRentBook.Size = new System.Drawing.Size(46, 20);
+            this.mnReturnfRentBook.Size = new System.Drawing.Size(52, 20);
             this.mnReturnfRentBook.Text = "Home";
             this.mnReturnfRentBook.Click += new System.EventHandler(this.mnReturnfRentBook_Click);
             // 
@@ -448,37 +448,37 @@
             this.discountToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nhậpMãToolStripMenuItem});
             this.discountToolStripMenuItem.Name = "discountToolStripMenuItem";
-            this.discountToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.discountToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.discountToolStripMenuItem.Text = "Discount";
             // 
             // nhậpMãToolStripMenuItem
             // 
             this.nhậpMãToolStripMenuItem.Name = "nhậpMãToolStripMenuItem";
-            this.nhậpMãToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.nhậpMãToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.nhậpMãToolStripMenuItem.Text = "Nhập mã";
-            // 
-            // listView1
-            // 
-            this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(14, 10);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(171, 372);
-            this.listView1.TabIndex = 2;
-            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.listView1);
-            this.panel5.Location = new System.Drawing.Point(732, 29);
+            this.panel5.Location = new System.Drawing.Point(732, 229);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(197, 401);
+            this.panel5.Size = new System.Drawing.Size(197, 201);
             this.panel5.TabIndex = 3;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(732, 32);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(174, 161);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // fRentBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(929, 442);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.btThanThanh);
             this.Controls.Add(this.btfRBDeselect);
@@ -503,7 +503,7 @@
             this.panel4.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -550,7 +550,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dtgvPickRentBook;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
